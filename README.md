@@ -1,4 +1,4 @@
-![Repository tests][https://github.com/hrncacz/boot_dev_ci-cd/actions/workflows/ci/badge.svg]
+![Repository tests][https://github.com/hrncacz/boot_dev_ci-cd/actions/workflows/ci.yml/badge.svg]
 
 # learn-cicd-starter (Notely)
 
