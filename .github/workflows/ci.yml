@@ -27,10 +27,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: "1.26.1"
+      - name: Check out code
+        uses: actions/checkout@v4
 
       - name: Style
         run: "test -z $(go fmt ./...)"
